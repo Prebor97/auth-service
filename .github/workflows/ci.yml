@@ -3,7 +3,7 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - main  # Trigger the workflow when pushing to main branch
+      - main  # Trigger the workflow when pushing to main branch first
   pull_request:
     branches:
       - main  # Trigger the workflow on PRs to main
